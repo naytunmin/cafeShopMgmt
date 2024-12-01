@@ -1,0 +1,156 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Layout styles */
+  .layout-content {
+    padding: 0 50px;
+    margin-top: 64px;
+  }
+  
+  .layout-content-inner {
+    padding: 24px;
+    min-height: 380px;
+    background-color: #fff;
+  }
+  
+  /* Header style */
+  header {
+    background-color: #001529;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Customizing Ant Design Components */
+  .ant-layout-header {
+    background-color: #001529;
+  }
+  
+  .ant-layout-content {
+    background-color: #f0f2f5;
+  }
+  
+  .ant-btn-primary {
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .ant-btn-primary:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  
+  .ant-btn-default {
+    background-color: #f5f5f5;
+    border-color: #d9d9d9;
+  }
+  
+  /* Grid styles */
+  .ag-theme-alpine {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+  }
+  
+  .ag-overlay-loading-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #1890ff;
+  }
+  
+  /* Custom Button Container */
+  .action-buttons-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Column Header Styles */
+  .ag-header-cell-label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .ag-cell {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Modal confirm styles */
+  .ant-modal-confirm-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .ant-modal-confirm-btns {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* CustomButton styles */
+.custom-button-container {
+  margin-bottom: 16px;
+}
+
+.custom-button {
+  width: 20%;
+  margin-bottom: 16px;
+}
+
+/* Dropdown styles */
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.dropdown-label {
+  margin-bottom: 8px;
+}
+
+.dropdown-error {
+  color: red;
+  margin-top: 4px;
+}
+
+/* FileUpload styles */
+.file-upload-container {
+  margin-bottom: 16px;
+}
+
+.file-upload-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #1890ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.file-upload-button:hover {
+  background-color: #40a9ff;
+}
